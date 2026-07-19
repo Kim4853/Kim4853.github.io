@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    {% if page.title and page.title != "Home" %}
+    {{ page.title }} | {{ site.title }}
+    {% else %}
+    {{ site.title }}
+    {% endif %}
+  </title>
+
+  <meta
+          name="description"
+          content="{{ page.description | default: site.description }}"
+  >
+
+  <link
+          rel="stylesheet"
+          href="{{ '/assets/css/style.css' | relative_url }}"
+  >
+</head>
+
+<body>
+
+<!-- 상단 배경 이미지 영역 -->
+<header class="hero-header">
+
+  <div class="hero-overlay">
+
+    <div class="hero-content">
+
+      <!-- 오른쪽 위 연구 분야 문구 -->
+      <div class="hero-top-right">
+        SciML &amp; UQ @ ME Purdue Univ.
+      </div>
+
+      <!-- 왼쪽 아래 기존 개인 정보 -->
+      <div class="hero-left">
+
+        <a
+                class="hero-title"
+                href="{{ '/' | relative_url }}"
+        >
+          BongSeok Kim
+        </a>
+
+        <div class="hero-subtitle">
+          Scientific Machine Learning and Computational Science
+        </div>
+
+        <div class="hero-affiliation">
+          School of Mechanical Engineering · Purdue University
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</header>
+
+<!-- 상단 메뉴 -->
+<nav class="site-navigation">
+
+  <div class="container navigation-inner">
+
+    {% for item in site.navigation %}
+
+    <a
+            href="{{ item.url | relative_url }}"
+            {% if page.url == item.url %}
+            class="active"
+            {% endif %}
+    >
+      {{ item.title }}
+    </a>
+
+    {% endfor %}
+
+  </div>
+
+</nav>
+
+<!-- 페이지 본문 -->
+<main class="container page-content">
+  {{ content }}
+</main>
+
+<!-- 바닥글 -->
+<footer class="site-footer">
+
+  <div class="container footer-inner">
+
+    <div>
+      © {{ site.time | date: "%Y" }} BongSeok Kim
+    </div>
+
+    <div>
+      School of Mechanical Engineering · Purdue University
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+</html>

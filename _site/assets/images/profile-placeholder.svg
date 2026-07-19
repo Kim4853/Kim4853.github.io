@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="520" viewBox="0 0 440 520">
+  <rect width="440" height="520" fill="#f3f3f3"/>
+  <circle cx="220" cy="175" r="82" fill="#cfcfcf"/>
+  <path d="M90 460c20-110 75-170 130-170s110 60 130 170" fill="#cfcfcf"/>
+  <text x="220" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#666">
+    Replace with profile photo
+  </text>
+</svg>

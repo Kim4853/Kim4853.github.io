@@ -1,0 +1,666 @@
+:root {
+  --purdue-gold: #cfb991;
+  --dark-gold: #9d6500;
+  --dark-text: #1f1f1f;
+  --muted-text: #555555;
+  --link-color: #0056a6;
+  --line-color: #cfcfcf;
+  --content-width: 1000px;
+}
+
+/* ========================================
+   기본 설정
+======================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--dark-text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.container {
+  width: min(92%, var(--content-width));
+  margin: 0 auto;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ========================================
+   상단 배경 이미지
+======================================== */
+
+.hero-header {
+  position: relative;
+  min-height: 220px;
+
+  background-image:
+          linear-gradient(
+                  rgba(0, 0, 0, 0.18),
+                  rgba(0, 0, 0, 0.42)
+          ),
+          url("../images/header.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero-overlay {
+  min-height: 220px;
+}
+
+.hero-content {
+  position: relative;
+
+  width: min(92%, var(--content-width));
+  min-height: 220px;
+
+  margin: 0 auto;
+
+  color: #ffffff;
+}
+
+/* ========================================
+   오른쪽 위 연구 분야 문구
+======================================== */
+
+.hero-top-right {
+
+  position: absolute;
+
+  top: 8px;          /* 위로 */
+
+  right: -80px;      /* 오른쪽으로 */
+
+  /*color: #A36E00;    !* 밝은 하늘색 *!*/
+  color: #C58A00;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 22px;
+
+  font-weight: 700;
+
+  text-align: right;
+
+  text-shadow:
+          0 2px 5px rgba(0,0,0,0.8),
+          0 4px 10px rgba(0,0,0,0.6);
+}
+
+/* ========================================
+   왼쪽 아래 개인 정보
+======================================== */
+
+.hero-left {
+  position: absolute;
+
+  left: 0;
+  bottom: 30px;
+
+  color: #ffffff;
+}
+
+.hero-title {
+  display: inline-block;
+
+  color: #ffffff;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+
+  text-decoration: none;
+
+  text-shadow:
+          0 1px 3px rgba(0, 0, 0, 0.95),
+          0 2px 8px rgba(0, 0, 0, 0.75);
+}
+
+.hero-title:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hero-subtitle {
+  margin-top: 8px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+
+  text-shadow:
+          0 1px 3px rgba(0, 0, 0, 0.95),
+          0 2px 7px rgba(0, 0, 0, 0.75);
+}
+
+.hero-affiliation {
+  margin-top: 5px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+
+  text-shadow:
+          0 1px 3px rgba(0, 0, 0, 0.95),
+          0 2px 7px rgba(0, 0, 0, 0.75);
+}
+
+/* ========================================
+   메뉴
+======================================== */
+
+.site-navigation {
+  background: #ffffff;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.navigation-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 60px;
+
+  gap: 60px;
+}
+
+.navigation-inner a {
+  position: relative;
+
+  padding: 20px 0 17px;
+
+  color: #222222;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  text-decoration: none;
+}
+
+.navigation-inner a:hover {
+  color: var(--dark-gold);
+  text-decoration: none;
+}
+
+.navigation-inner a.active {
+  color: var(--dark-gold);
+  font-weight: 600;
+}
+
+.navigation-inner a.active::after {
+  position: absolute;
+
+  right: 0;
+  bottom: -1px;
+  left: 0;
+
+  height: 3px;
+
+  background: var(--dark-gold);
+
+  content: "";
+}
+
+/* ========================================
+   전체 본문
+======================================== */
+
+.page-content {
+  min-height: 600px;
+
+  padding-top: 34px;
+  padding-bottom: 70px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+
+  color: #111111;
+
+  font-size: 34px;
+}
+
+h2 {
+  margin-top: 42px;
+  margin-bottom: 18px;
+
+  padding-bottom: 7px;
+
+  border-bottom: 1px solid var(--line-color);
+
+  color: var(--dark-gold);
+
+  font-size: 25px;
+}
+
+h3 {
+  margin-top: 28px;
+
+  color: var(--dark-gold);
+
+  font-size: 21px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+/* ========================================
+   첫 화면 프로필 영역
+======================================== */
+
+.profile-layout {
+  display: grid;
+
+  grid-template-columns:
+    minmax(290px, 340px)
+    minmax(0, 1fr);
+
+  gap: 70px;
+
+  align-items: start;
+}
+
+.profile-left {
+  text-align: center;
+}
+
+.profile-image {
+  display: block;
+
+  width: 100%;
+  max-width: 340px;
+
+  margin: 0 auto;
+
+  border: 1px solid #d8d8d8;
+}
+
+.profile-caption {
+  margin-top: 9px;
+
+  color: #444444;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.profile-right {
+  padding-top: 0;
+  text-align: center;
+}
+
+.profile-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  color: #111111;
+
+  font-size: 32px;
+}
+
+.profile-position {
+  margin-bottom: 18px;
+
+  color: var(--dark-gold);
+
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.18;
+}
+
+.profile-details {
+  margin-top: 15px;
+
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.profile-details strong {
+  color: #111111;
+}
+
+.profile-links {
+  margin-top: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.profile-links a {
+  display: inline-block;
+
+  margin: 4px 9px;
+}
+
+.main-divider{
+
+  position: relative;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 1200px;
+
+  max-width: 95vw;
+
+  margin: 45px 0 35px;
+
+  border: 0;
+
+  border-top: 1px solid #999999;
+
+}
+
+/* ========================================
+   Biography
+======================================== */
+
+.biography-section h2 {
+  margin-bottom: 20px;
+
+  padding-bottom: 0;
+
+  border-bottom: 0;
+}
+
+.biography-section p {
+  text-align: justify;
+}
+
+/* ========================================
+   학위 및 연구 관심사
+======================================== */
+
+.degree-list,
+.research-list {
+  margin: 0;
+  padding-left: 34px;
+}
+
+.degree-list li,
+.research-list li {
+  margin-bottom: 7px;
+}
+
+/* ========================================
+   소식
+======================================== */
+
+.news-table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+.news-table td {
+  padding: 8px 4px;
+
+  vertical-align: top;
+
+  border-bottom: 1px dotted #cccccc;
+}
+
+.news-date {
+  width: 125px;
+
+  color: var(--dark-gold);
+
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+/* ========================================
+   논문
+======================================== */
+
+.publication {
+  margin-bottom: 25px;
+}
+
+.publication-title {
+  font-weight: 700;
+}
+
+.publication-authors {
+  margin-top: 3px;
+}
+
+.publication-venue {
+  margin-top: 3px;
+
+  font-style: italic;
+}
+
+.publication-links {
+  margin-top: 5px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.publication-links a {
+  margin-right: 12px;
+}
+
+/* ========================================
+   바닥글
+======================================== */
+
+.site-footer {
+  padding: 25px 0;
+
+  border-top: 1px solid var(--line-color);
+
+  color: #666666;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.footer-inner {
+  display: flex;
+
+  justify-content: space-between;
+
+  gap: 25px;
+}
+
+/* ========================================
+   태블릿 화면
+======================================== */
+
+@media (max-width: 850px) {
+  .hero-header,
+  .hero-overlay,
+  .hero-content {
+    min-height: 215px;
+  }
+
+  .hero-top-right {
+    top: 20px;
+
+    font-size: 18px;
+  }
+
+  .hero-left {
+    bottom: 25px;
+  }
+
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .hero-subtitle {
+    font-size: 17px;
+  }
+
+  .hero-affiliation {
+    font-size: 14px;
+  }
+
+  .navigation-inner {
+    flex-wrap: wrap;
+
+    gap: 8px 30px;
+
+    padding: 10px 0;
+  }
+
+  .navigation-inner a {
+    padding: 9px 0;
+  }
+
+  .profile-layout {
+    grid-template-columns: 1fr;
+
+    gap: 30px;
+  }
+
+  .profile-image {
+    max-width: 330px;
+  }
+
+  .profile-right {
+    text-align: center;
+  }
+
+  .footer-inner {
+    display: block;
+  }
+
+  .footer-inner div + div {
+    margin-top: 7px;
+  }
+}
+
+/* ========================================
+   모바일 화면
+======================================== */
+
+@media (max-width: 560px) {
+  body {
+    font-size: 16px;
+  }
+
+  .hero-header,
+  .hero-overlay,
+  .hero-content {
+    min-height: 230px;
+  }
+
+  .hero-top-right {
+    top: 17px;
+    right: 0;
+
+    max-width: 220px;
+
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .hero-left {
+    right: 0;
+    bottom: 22px;
+  }
+
+  .hero-title {
+    font-size: 27px;
+  }
+
+  .hero-subtitle {
+    max-width: 330px;
+
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  .hero-affiliation {
+    max-width: 330px;
+
+    font-size: 13px;
+  }
+
+  .navigation-inner {
+    justify-content: flex-start;
+
+    gap: 4px 24px;
+  }
+
+  .navigation-inner a {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 29px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  .news-table,
+  .news-table tbody,
+  .news-table tr,
+  .news-table td {
+    display: block;
+  }
+
+  .news-date {
+    width: auto;
+
+    padding-bottom: 0 !important;
+
+    border-bottom: 0 !important;
+  }
+}
+
+/* ========================================
+   Biography 이하 넓은 본문
+======================================== */
+
+.wide-content {
+  width: min(1180px, calc(100vw - 80px));
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.wide-content h2 {
+  width: 100%;
+}
+
+.wide-content p {
+  max-width: none;
+}

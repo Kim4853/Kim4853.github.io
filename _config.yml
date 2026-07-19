@@ -1,0 +1,33 @@
+title: BongSeok Kim
+description: Ph.D. Student in Mechanical Engineering at Purdue University
+
+url: "https://Kim4853.github.io"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+author:
+  name: BongSeok Kim
+  affiliation: Purdue University
+  email: kim4853@purdue.edu
+
+navigation:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /software/
+  - title: Awards
+    url: /awards/
+  - title: CV
+    url: /cv/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
