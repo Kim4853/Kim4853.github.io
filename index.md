@@ -62,11 +62,11 @@ permalink: /
         Email
       </a>
 
-      <a href="#">
+      <a href="https://scholar.google.com/citations?user=W_HjkfwAAAAJ&hl=en">
         Google Scholar
       </a>
 
-      <a href="#">
+      <a href="">
         GitHub
       </a>
 
