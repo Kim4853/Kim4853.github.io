@@ -70,12 +70,6 @@ permalink: /
         GitHub
       </a>
 
-      <a
-        href="{{ '/assets/files/BongSeok_Kim_CV.pdf' | relative_url }}"
-      >
-        CV
-      </a>
-
     </div>
 
   </div>
