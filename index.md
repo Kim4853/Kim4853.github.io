@@ -4,6 +4,103 @@ title: Home
 permalink: /
 ---
 
+<style>
+/* =========================================================
+   Publications
+   ========================================================= */
+
+.publications-section {
+  margin-top: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.publications-heading {
+  margin-bottom: 1.5rem;
+}
+
+.publications-note {
+  font-size: 0.82em;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.publication-list {
+  margin: 0;
+  padding-left: 2.2rem;
+}
+
+.publication-list > li {
+  margin-bottom: 1.45rem;
+  padding-left: 0.35rem;
+  line-height: 1.55;
+}
+
+.publication-entry {
+  display: block;
+}
+
+.publication-authors,
+.publication-title,
+.publication-journal,
+.publication-status {
+  display: inline;
+}
+.publication-title {
+  font-weight: 400 !important;
+}
+
+.publication-me {
+  font-weight: 700;
+}
+
+.publication-journal {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.publication-status {
+  white-space: nowrap;
+}
+
+
+.publication-entry a,
+.publication-entry a:link,
+.publication-entry a:visited {
+    display: block;
+    margin-top: 0.25rem;
+
+    color: #996515 !important;
+
+    font-size: 0.98em;
+    text-decoration: none !important;
+}
+
+.publication-entry a:hover,
+.publication-entry a:focus {
+    color: #7A5A00 !important;
+    text-decoration: underline !important;
+}
+
+
+.publication-link:focus {
+  color: #8E6F3E;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .publication-list {
+    padding-left: 1.7rem;
+  }
+
+  .publication-list > li {
+    padding-left: 0.15rem;
+    margin-bottom: 1.3rem;
+  }
+}
+</style>
+
+
+
 <div class="profile-layout">
 
   <div class="profile-left">
@@ -34,7 +131,7 @@ permalink: /
 
       <strong>Research Areas</strong><br>
       Scientific Machine Learning<br>
-      Multiscale physics<br>
+      Multiscale Physics<br>
       Uncertainty Quantification<br>
       Computational Mechanics
 
@@ -76,7 +173,9 @@ permalink: /
 
 </div>
 
+
 <hr class="main-divider">
+
 
 <div class="wide-content">
 
@@ -85,14 +184,23 @@ permalink: /
     <h2>Biography</h2>
 
     <p>
-    BongSeok Kim is a Ph.D. student in the School of Mechanical Engineering at Purdue University, advised by Professor Guang Lin in the Department of Mathematics and the School of Mechanical Engineering, and Professor Li Qiao in the School of Aeronautics and Astronautics.
+      BongSeok Kim is a Ph.D. student in the School of Mechanical Engineering
+      at Purdue University, advised by Professor Guang Lin in the Department
+      of Mathematics and the School of Mechanical Engineering, and Professor
+      Li Qiao in the School of Aeronautics and Astronautics.
     </p>
 
     <p>
-    His research focuses on developing machine learning methods with rigorous guarantees on the mathematical and physical properties of governing equations, and on extending these methods to complex engineering and physical systems at scale. His work spans scientific machine learning, data-driven physics discovery, uncertainty quantification, operator learning, and digital twins.
+      His research focuses on developing machine learning methods with rigorous
+      guarantees on the mathematical and physical properties of governing
+      equations, and on extending these methods to complex engineering and
+      physical systems at scale. His work spans scientific machine learning,
+      data-driven physics discovery, uncertainty quantification, operator
+      learning, and digital twins.
     </p>
 
   </section>
+
 
   <section>
 
@@ -119,6 +227,7 @@ permalink: /
 
   </section>
 
+
   <section>
 
     <h2>Research Interests</h2>
@@ -142,92 +251,766 @@ permalink: /
       </li>
 
       <li>
-        Computational Multiscale Physics & Mechanics
+        Computational Multiscale Physics &amp; Mechanics
       </li>
-
 
     </ul>
 
   </section>
 
+
+  <section class="publications-section">
+
+    <h2 class="publications-heading">
+      Publications:
+      <span class="publications-note">
+        (* denotes corresponding author)
+      </span>
+    </h2>
+
+    <ol class="publication-list">
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Jiahao Zhang, and Guang Lin*,
+          </span>
+
+          <span class="publication-title">
+            “Weak-form evolutionary Kolmogorov–Arnold Networks for solving
+            partial differential equations,”
+          </span>
+
+          <span class="publication-journal">
+            Computer Methods in Applied Mechanics and Engineering,
+          </span>
+
+          <span class="publication-status">
+            458, 119065, 2026
+          </span>
+
+          
+          <a
+            class="publication-link"
+            href="https://doi.org/10.1016/j.cma.2026.119065"
+          >
+          https://doi.org/10.1016/j.cma.2026.119065
+          </a>
+          
+        </div>
+      </li>
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Shinseong Kang, and Kyunghoon Lee*,
+          </span>
+
+          <span class="publication-title">
+            “Component-based wing structure reconfiguration and analysis
+            on the fly,”
+          </span>
+          <span class="publication-journal">
+            Aerospace Science and Technology,
+          </span>
+          <span class="publication-status">
+            151, 109238.
+          </span>
+
+          <a
+            class="publication-link"
+            href="https://doi.org/10.1016/j.ast.2024.109238"
+          >
+          https://doi.org/10.1016/j.ast.2024.109238
+          </a>
+
+        </div>
+      </li>
+
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            Suman Chakraborty,
+            <span class="publication-me">BongSeok Kim (co-1st author)</span>,
+            and Li Qiao*,
+          </span>
+
+          <span class="publication-title">
+            “Molecular Dynamics Investigation of Mass Transport during
+            Evaporation for the Binary System of n-Dodecane and Nitrogen,”
+          </span>
+
+          <span class="publication-journal">
+            The Journal of Physical Chemistry B,
+          </span>
+
+          <span class="publication-status">
+            1520-6106, 2026
+          </span>
+
+          <a
+            class="publication-link"
+            href="https://doi.org/10.1021/acs.jpcb.6c00493"
+          >
+          https://doi.org/10.1021/acs.jpcb.6c00493
+          </a>
+        </div>
+      </li>
+
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Johannes Krotz, Dinshaw S. Balsara, Ryan G. McClarren,
+            Jiahao Zhang, and Guang Lin*,
+          </span>
+
+          <span class="publication-title">
+            “A Hyperbolic Neural Closure for M1 Radiation Transfer,”
+          </span>
+
+          <span class="publication-journal">
+            Computer Methods in Applied Mechanics and Engineering,
+          </span>
+
+          <span class="publication-status">
+            Under Review (July 2026).
+          </span>
+
+          <a
+            class="publication-link"
+            href="arXiv:2607.10364"
+          >
+          arXiv:2607.10364
+          </a>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Jiahao Zhang, and Guang Lin*,
+          </span>
+
+          <span class="publication-title">
+            “BEKAN: Boundary condition-guaranteed evolutionary
+            Kolmogorov–Arnold networks with radial basis functions for
+            solving PDE problems,”
+          </span>
+
+          <span class="publication-journal">
+            Mathematics and Computers in Simulation, 
+          </span>
+
+          <span class="publication-status">
+            Under Review (July 2026).
+          </span>
+
+          
+          <a
+            class="publication-link"
+            href="arXiv:2510.03576"
+          >
+          arXiv:2510.03576
+          </a>
+
+        </div>
+      </li>
+
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>, Heesung Lee
+            and Kyunghoon Lee*,
+          </span>
+
+          <span class="publication-title">
+            “Structural Design Optimization of a Launch Vehicle Propellant
+            Tank using Kriging,”
+          </span>
+
+          <span class="publication-journal">
+            Engineering Structures,
+          </span>
+
+          <span class="publication-status">
+            336, 120196.
+          </span>
+
+          <a
+            class="publication-link"
+            href="10.5139/JKSAS.2025.53.10.1027 "
+          >
+          10.5139/JKSAS.2025.53.10.1027 
+          </a>
+         </div>
+      </li>
+
+
+      <li>
+        <div class="publication-entry">
+
+          <span class="publication-authors">
+            Dayoung Kang, Shinseong Kang, <span class="publication-me">BongSeok Kim</span>
+            and Kyunghoon Lee*,
+          </span>
+
+          <span class="publication-title">
+            “Condition-based fatigue life monitoring of a high-pressure
+            hydrogen storage vessel using a reduced basis digital twin,”
+          </span>
+
+          <span class="publication-journal">
+            Engineering Structures,
+          </span>
+
+          <span class="publication-status">
+            336, 120196.
+          </span>
+
+          <a
+            class="publication-link"
+            href="https://doi.org/10.1016/j.engstruct.2025.120196"
+          >
+          https://doi.org/10.1016/j.engstruct.2025.120196
+          </a>
+        </div>
+      </li>
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            Amirhossein Mollaali, <span class="publication-me">BongSeok Kim</span>, Christian Moya,
+            and Guang Lin*,
+          </span>
+
+          <span class="publication-title">
+            “pADAM: A Plug-and-Play All-in-One Diffusion Architecture
+            for Multi-Physics Learning,”
+          </span>
+
+          <span class="publication-journal">
+            npj Artificial Intelligence,
+          </span>
+
+          <span class="publication-status">
+            Under Revision (July 2026).
+          </span>
+
+          <a
+            class="publication-link"
+            href="arXiv:2603.16757"
+          >
+          arXiv:2603.16757
+          </a>
+        </div>
+      </li>
+
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Haoyang Zhang, and Guang Lin*,
+          </span>
+
+          <span class="publication-title">
+            “Bayesian Multi-fidelity Laplace Neural Operators for Parametric
+            Oscillatory Partial Differential Equations,”
+          </span>
+
+          <span class="publication-journal">
+            Computer Methods in Applied Mechanics and Engineering,
+          </span>
+          <span class="publication-status">
+            To be submitted (July 2026)
+          </span>
+        </div>
+      </li>
+
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Suman Chakraborty, Gary Huang, Mehek Mathur, and Li Qiao*,
+          </span>
+
+          <span class="publication-title">
+            “Symbolic Machine Learning for Vapor–Liquid Equilibrium
+            Prediction in C<sub>x</sub>–N<sub>2</sub> Binary Mixtures,”
+          </span>
+          <span class="publication-journal">
+            Machine Learning with Applications,
+          </span>
+          <span class="publication-status">
+            To be submitted (July 2026)
+          </span>
+
+        </div>
+      </li>
+
+    </ol>
+
+  </section>
+
+
+
+
+<section class="publications-section">
+
+  <h2 class="publications-heading">
+    Conferences
+  </h2>
+
+  <ol class="publication-list">
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Johannes Krotz, Dinshaw S. Balsara, Ryan G. McClarren,
+          Jiahao Zhang, and Guang Lin,
+        </span>
+
+        <span class="publication-title">
+          “Symmetrizable Hyperbolic Neural Closure for M1 Radiation Transfer,”
+        </span>
+
+        <span class="publication-journal">
+          SIAM Annual Meeting 2026,
+        </span>
+
+        <span class="publication-status">
+          Cleveland, Ohio, USA, July 2026. Oral Presentation.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          Suman Chakraborty,
+          <span class="publication-me">BongSeok Kim</span>,
+          and Li Qiao,
+        </span>
+
+        <span class="publication-title">
+          “Molecular Dynamics Investigation of Transcritical Mass Transport
+          during Evaporation of n-Dodecane in Nitrogen,”
+        </span>
+
+        <span class="publication-journal">
+          International Conference of Fluid Dynamics 2025,
+        </span>
+
+        <span class="publication-status">
+          Sendai, Japan, November 2025. Oral Presentation.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Component-Based Aircraft Wing Reconfiguration and Structural
+          Response Prediction on the Fly,”
+        </span>
+
+        <span class="publication-journal">
+          Asian Congress of Structural and Multidisciplinary Optimization,
+        </span>
+
+        <span class="publication-status">
+          May 2024. Oral Presentation.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          Dayoung Kang,
+          <span class="publication-me">BongSeok Kim</span>,
+          and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Reliability-based Design Optimization of a Hydrogen Storage
+          Vessel Using Rapid yet Accurate Structural Analysis,”
+        </span>
+
+        <span class="publication-journal">
+          The Society for Aerospace System Engineering 2024 Spring Conference,
+        </span>
+
+        <span class="publication-status">
+          May 2024.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Static condensation reduced basis element analysis of an aircraft
+          wing structure with applications,”
+        </span>
+
+        <span class="publication-journal">
+          The Korean Institute of Military Science and Technology
+          2023 Spring Conference,
+        </span>
+
+        <span class="publication-status">
+          June 2023.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Linear elastostatic analysis of a wing structure via static
+          condensation reduced basis element method,”
+        </span>
+
+        <span class="publication-journal">
+          Korean Society for Industrial and Applied Mathematics
+          2023 Spring Conference,
+        </span>
+
+        <span class="publication-status">
+          May 2023.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Rapid yet accurate linear elastostatic analysis of an aircraft
+          wing structure and its applications,”
+        </span>
+
+        <span class="publication-journal">
+          The Society for Aerospace System Engineering
+          2023 Spring Conference,
+        </span>
+
+        <span class="publication-status">
+          May 2023.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Rapid and accurate large-scale structural analysis by a static
+          condensation reduced basis element method: application to aircraft
+          wing structural analysis,”
+        </span>
+
+        <span class="publication-journal">
+          The Korean Society of Mechanical Engineers 2022 Fall Conference,
+        </span>
+
+        <span class="publication-status">
+          November 2022.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Component library-based reconstruction of an aircraft wing
+          structure and a rapid yet accurate structural analysis,”
+        </span>
+
+        <span class="publication-journal">
+          The Korean Society for Aeronautical and Space Sciences
+          2022 Fall Conference,
+        </span>
+
+        <span class="publication-status">
+          November 2022.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Rapid yet accurate elastostatic analysis of a large-scale structure:
+          application to an aircraft wing structure,”
+        </span>
+
+        <span class="publication-journal">
+          The Korean Institute of Military Science and Technology
+          2022 Spring Conference,
+        </span>
+
+        <span class="publication-status">
+          June 2022.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Rapid yet accurate elastostatic analysis and geometric
+          parameterization of an aircraft wing structure,”
+        </span>
+
+        <span class="publication-journal">
+          The Korean Society of Mechanical Engineers 2022 Spring Conference,
+        </span>
+
+        <span class="publication-status">
+          May 2022.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “A static condensation reduced basis element method applied to
+          the linear elastostatic analysis of an aircraft wing structure,”
+        </span>
+
+        <span class="publication-journal">
+          Computational Structural Engineering Institute of Korea
+          2022 Spring Conference,
+        </span>
+
+        <span class="publication-status">
+          April 2022.
+        </span>
+
+      </div>
+    </li>
+
+
+    <li>
+      <div class="publication-entry">
+
+        <span class="publication-authors">
+          <span class="publication-me">BongSeok Kim</span>,
+          Shinseon Kang, and Kyunghoon Lee,
+        </span>
+
+        <span class="publication-title">
+          “Rapid yet accurate linear elastostatic analysis of an aircraft
+          wing structure,”
+        </span>
+
+        <span class="publication-journal">
+          The Korean Society for Aeronautical and Space Sciences
+          2022 Spring Conference,
+        </span>
+
+        <span class="publication-status">
+          April 2022.
+        </span>
+
+      </div>
+    </li>
+
+  </ol>
+
+</section>
+
+
   <section>
 
-<h2>News</h2>
+    <h2>News</h2>
 
-<table class="news-table">
+    <table class="news-table">
 
-  <tr>
-    <td class="news-date">
-      July 2026
-    </td>
+      <tr>
+        <td class="news-date">
+          July 2026
+        </td>
 
-    <td>
-      Our paper <i>"A Hyperbolic Neural Closure for M1 Radiation Transfer"</i>
-      is currently under review at
-      <i>Computer Methods in Applied Mechanics and Engineering (CMAME)</i>.
-    </td>
-  </tr>
+        <td>
+          Our paper
+          <i>“A Hyperbolic Neural Closure for M1 Radiation Transfer”</i>
+          is currently under review at
+          <i>
+            Computer Methods in Applied Mechanics and Engineering
+            (CMAME)
+          </i>.
+        </td>
+      </tr>
 
-  <tr>
-    <td class="news-date">
-      July 2026
-    </td>
 
-    <td>
-      Our paper <i>"pADAM: A Plug-and-Play All-in-One Diffusion Architecture for Multi-Physics Learning"</i>
-      is under revision, 
-      <b><i>Nature npj Artificial Intelligence</i>.</b>
-    </td>
-  </tr>
+      <tr>
+        <td class="news-date">
+          July 2026
+        </td>
 
-  <tr>
-    <td class="news-date">
-      July 2026
-    </td>
+        <td>
+          Our paper
+          <i>
+            “pADAM: A Plug-and-Play All-in-One Diffusion Architecture
+            for Multi-Physics Learning”
+          </i>
+          is under revision at
+          <b><i>npj Artificial Intelligence</i></b>.
+        </td>
+      </tr>
 
-    <td>
-      Presented our work on hyperbolic neural closure at the
-      <i>SIAM Annual Meeting 2026</i>,
-      Minisymposium on <i>Stochastic and Data-Driven Modeling: Computational Methods for Moment Models in Radiative Transfer and Kinetic Theory</i>,
-      Cleveland, Ohio, USA.
-    </td>
-  </tr>
 
-  <tr>
-    <td class="news-date">
-      June 2026
-    </td>
+      <tr>
+        <td class="news-date">
+          July 2026
+        </td>
 
-    <td>
-      Our molecular dynamics paper was accepted for publication in
-      <i>The Journal of Physical Chemistry B (JPCB)</i>.
-    </td>
-  </tr>
+        <td>
+          Presented our work on hyperbolic neural closure at the
+          <i>SIAM Annual Meeting 2026</i>,
+          in the minisymposium
+          <i>
+            “Stochastic and Data-Driven Modeling: Computational Methods
+            for Moment Models in Radiative Transfer and Kinetic Theory”
+          </i>,
+          Cleveland, Ohio, USA.
+        </td>
+      </tr>
 
-  <tr>
-    <td class="news-date">
-      May 2026
-    </td>
 
-    <td>
-      Our paper on Weak-Form Evolutionary Kolmogorov–Arnold Networks was accepted by
-      <i>Computer Methods in Applied Mechanics and Engineering (CMAME)</i>.
-    </td>
-  </tr>
+      <tr>
+        <td class="news-date">
+          June 2026
+        </td>
 
-  <tr>
-    <td class="news-date">
-      November 2025
-    </td>
+        <td>
+          Our molecular dynamics paper was accepted for publication in
+          <i>The Journal of Physical Chemistry B</i>.
+        </td>
+      </tr>
 
-    <td>
-      Presented our work on molecular dynamics simulations of transcritical mass transfer at the
-      <i>International Conference of Fluid Dynamics 2025 (ICFD 2025)</i>,
-      Sendai, Japan.
-    </td>
-  </tr>
 
-</table>
+      <tr>
+        <td class="news-date">
+          May 2026
+        </td>
+
+        <td>
+          Our paper on Weak-Form Evolutionary Kolmogorov–Arnold Networks
+          was accepted by
+          <i>
+            Computer Methods in Applied Mechanics and Engineering
+            (CMAME)
+          </i>.
+        </td>
+      </tr>
+
+
+      <tr>
+        <td class="news-date">
+          November 2025
+        </td>
+
+        <td>
+          Presented our work on molecular dynamics simulations of
+          transcritical mass transfer at the
+          <i>International Conference of Fluid Dynamics 2025 (ICFD 2025)</i>,
+          Sendai, Japan.
+        </td>
+      </tr>
+
+    </table>
 
   </section>
 
