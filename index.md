@@ -497,7 +497,7 @@ permalink: /
           </span>
 
           <span class="publication-journal">
-            npj Artificial Intelligence,
+            Nature npj Artificial Intelligence,
           </span>
 
           <span class="publication-status">
