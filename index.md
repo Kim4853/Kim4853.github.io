@@ -437,7 +437,7 @@ permalink: /
           </span>
 
           <span class="publication-journal">
-            Engineering Structures,
+            Journal of the Korean Society for Aeronautical & Space Sciences,
           </span>
 
           <span class="publication-status">
