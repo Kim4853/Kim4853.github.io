@@ -664,3 +664,9 @@ p {
 .wide-content p {
   max-width: none;
 }
+
+.publication-divider {
+  border: 0;
+  border-top: 1px solid #d6d6d6;
+  margin: 1.8rem 0 1.6rem;
+}

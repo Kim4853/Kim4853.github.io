@@ -513,7 +513,7 @@ permalink: /
         </div>
       </li>
 
-
+<hr class="publication-divider">
       <li>
         <div class="publication-entry">
           <span class="publication-authors">
