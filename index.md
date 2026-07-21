@@ -946,7 +946,7 @@ permalink: /
             for Multi-Physics Learning”
           </i>
           is under revision at
-          <b><i>npj Artificial Intelligence</i></b>.
+          <b><i>Nature npj Artificial Intelligence</i></b>.
         </td>
       </tr>
 
