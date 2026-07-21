@@ -48,7 +48,7 @@ These methodologies provide the computational foundation for **reliable digital 
 
 ---
 
-## 3. Collaborative Research in Computational Engineering
+## 3. Extensive Collaborative Application Research for Multiscale Physics & Large-Scale Systems
 
 Our methodologies are developed and validated through interdisciplinary collaborations in computational engineering and physical sciences.
 
