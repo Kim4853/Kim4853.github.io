@@ -8,9 +8,6 @@ permalink: /
 /* =========================================================
    Publications
    ========================================================= */
-.wide-content {
-  font-size: 0.85rem;
-}
 
 .publications-section {
   margin-top: 2.4rem;
