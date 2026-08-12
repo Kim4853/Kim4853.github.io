@@ -8,6 +8,9 @@ permalink: /
 /* =========================================================
    Publications
    ========================================================= */
+.wide-content {
+  font-size: 0.85rem;
+}
 
 .publications-section {
   margin-top: 2.4rem;
@@ -183,21 +186,27 @@ permalink: /
 
     <h2>Biography</h2>
 
-    <p>
-      BongSeok Kim is a Ph.D. student in the School of Mechanical Engineering
-      at Purdue University, advised by Professor Guang Lin in the Department
-      of Mathematics and the School of Mechanical Engineering, and Professor
-      Li Qiao in the School of Aeronautics and Astronautics.
-    </p>
+<p>
+  BongSeok Kim is a Ph.D. student in the School of Mechanical Engineering
+  at Purdue University, advised by Professor Guang Lin in the Department
+  of Mathematics and the School of Mechanical Engineering, and Professor
+  Li Qiao in the School of Aeronautics and Astronautics.
+</p>
 
-    <p>
-      His research focuses on developing machine learning methods with rigorous
-      guarantees on the mathematical and physical properties of governing
-      equations, and on extending these methods to complex engineering and
-      physical systems at scale. His work spans scientific machine learning,
-      data-driven physics discovery, uncertainty quantification, operator
-      learning, and digital twins.
-    </p>
+<p>
+  His research lies at the intersection of scientific machine learning,
+  computational physics, and applied mathematics. He develops learning-based
+  methods that preserve fundamental mathematical and physical structures of
+  governing equations, with particular interests in stability, hyperbolicity,
+  uncertainty, and multiscale behavior. His current research includes structure-preserving learning for PDEs and
+  kinetic equations, neural operators for complex physical systems,
+  uncertainty-aware multifidelity modeling, and data-driven discovery of
+  physical laws. These methods are applied across problems in radiative
+  transfer, molecular dynamics, multiphysics systems, and computational
+  mechanics, with the broader goal of building reliable machine learning
+  models for scientific computing.
+</p>
+
 
   </section>
 
@@ -514,9 +523,7 @@ permalink: /
         </div>
       </li>
 
-  <h2 class="publications-heading">
-    Preprints
-  </h2>
+
 
       <li>
         <div class="publication-entry">
@@ -531,10 +538,10 @@ permalink: /
           </span>
 
           <span class="publication-journal">
-            Computer Methods in Applied Mechanics and Engineering,
+            Journal of Computational Physics,
           </span>
           <span class="publication-status">
-            To be submitted (July 2026)
+            Submitted
           </span>
         </div>
       </li>
@@ -555,9 +562,72 @@ permalink: /
             Machine Learning with Applications,
           </span>
           <span class="publication-status">
-            To be submitted (July 2026)
+            Submitted
           </span>
 
+        </div>
+      </li>
+      <h2 class="publications-heading">
+    Preprints
+  </h2>
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Jiahao Zhang, and Guang Lin*,
+          </span>
+
+          <span class="publication-title">
+            “Lego-Diffusion model for multiphysics operator learning”
+          </span>
+
+          <span class="publication-journal">
+            
+          </span>
+          <span class="publication-status">
+            
+          </span>
+        </div>
+      </li>
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Jiahao Zhang, and Guang Lin*,
+          </span>
+
+          <span class="publication-title">
+            “A Hyperbolic Neural Closure for Moment Systems of the Boltzmann Transport Equation”
+          </span>
+
+          <span class="publication-journal">
+            
+          </span>
+          <span class="publication-status">
+            
+          </span>
+        </div>
+      </li>
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Suman Chakraborty, Guang Lin*, Li Qiao*
+          </span>
+
+          <span class="publication-title">
+            “MD-infored Operator Learning of Interfacial Structure for Vapor–Liquid Equilibrium”
+          </span>
+
+          <span class="publication-journal">
+            
+          </span>
+          <span class="publication-status">
+            
+          </span>
         </div>
       </li>
 
