@@ -183,6 +183,7 @@ permalink: /
 
     <h2>Biography</h2>
 
+```html
 <p>
   BongSeok Kim is a Ph.D. student in the School of Mechanical Engineering
   at Purdue University, advised by Professor Guang Lin in the Department
@@ -192,17 +193,60 @@ permalink: /
 
 <p>
   His research lies at the intersection of scientific machine learning,
-  computational physics, and applied mathematics. He develops learning-based
-  methods that preserve fundamental mathematical and physical structures of
-  governing equations, with particular interests in stability, hyperbolicity,
-  uncertainty, and multiscale behavior. His current research includes structure-preserving learning for PDEs and
-  kinetic equations, neural operators for complex physical systems,
-  uncertainty-aware multifidelity modeling, and data-driven discovery of
-  physical laws. These methods are applied across problems in radiative
-  transfer, molecular dynamics, multiphysics systems, and computational
-  mechanics, with the broader goal of building reliable machine learning
-  models for scientific computing.
+  computational physics, and applied mathematics. His research focuses on
+  developing new computational and machine learning methodologies for complex
+  physical systems, particularly for problems where conventional simulation
+  is limited by high computational cost, unresolved physical scales,
+  incomplete information, or uncertainty.
 </p>
+
+<p>
+  A central part of his research is the theoretical development of learning
+  methods that guarantee fundamental mathematical and physical properties of
+  governing equations. Rather than relying solely on empirical performance,
+  he studies mathematical formulations that provide rigorous guarantees on
+  properties such as hyperbolicity, conservation, stability, positivity,
+  entropy consistency, and physical admissibility. These developments aim to
+  make learning-based models reliable components of scientific simulation.
+</p>
+
+<p>
+  He also develops data-driven methodologies for multiscale modeling and
+  closure. Many physical systems involve interactions among molecular,
+  kinetic, mesoscopic, and continuum scales, making direct resolution
+  prohibitively expensive. His research develops methods for learning
+  unresolved dynamics, constructing closure models, and transferring
+  information across physical scales while maintaining consistency with the
+  governing equations.
+</p>
+
+<p>
+  Another direction of his research concerns efficient and uncertainty-aware
+  computational modeling. He develops methods that combine information from
+  simulations, physical models, and data to reduce computational cost,
+  quantify predictive uncertainty, and adaptively determine where additional
+  information is most valuable. This includes reduced modeling, multifidelity
+  methods, probabilistic inference, and adaptive learning.
+</p>
+
+<p>
+  These methodological developments are applied to challenging problems
+  across science and engineering, including multiphysics digital twins,
+  weather and climate dynamics, fusion plasma, molecular and continuum
+  transport, and radiation hydrodynamics. These applications provide
+  distinct settings in which to develop and test general methodologies for
+  high-dimensional, multiscale, and computationally intensive physical
+  systems.
+</p>
+
+<p>
+  His broader goal is to advance the mathematical and computational
+  foundations of scientific machine learning, enabling data and machine
+  learning to be integrated with physical modeling in a rigorous, reliable,
+  and computationally effective manner.
+</p>
+```
+
 
 
   </section>
