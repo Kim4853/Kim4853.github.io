@@ -208,9 +208,6 @@ permalink: /
   properties such as hyperbolicity, conservation, stability, positivity,
   entropy consistency, and physical admissibility. These developments aim to
   make learning-based models reliable components of scientific simulation.
-</p>
-
-<p>
   He also develops data-driven methodologies for multiscale modeling and
   closure. Many physical systems involve interactions among molecular,
   kinetic, mesoscopic, and continuum scales, making direct resolution
@@ -218,9 +215,6 @@ permalink: /
   unresolved dynamics, constructing closure models, and transferring
   information across physical scales while maintaining consistency with the
   governing equations.
-</p>
-
-<p>
   Another direction of his research concerns efficient and uncertainty-aware
   computational modeling. He develops methods that combine information from
   simulations, physical models, and data to reduce computational cost,
@@ -237,9 +231,6 @@ permalink: /
   distinct settings in which to develop and test general methodologies for
   high-dimensional, multiscale, and computationally intensive physical
   systems.
-</p>
-
-<p>
   His broader goal is to advance the mathematical and computational
   foundations of scientific machine learning, enabling data and machine
   learning to be integrated with physical modeling in a rigorous, reliable,
