@@ -183,7 +183,7 @@ permalink: /
 
     <h2>Biography</h2>
 
-```html
+
 <p>
   BongSeok Kim is a Ph.D. student in the School of Mechanical Engineering
   at Purdue University, advised by Professor Guang Lin in the Department
@@ -245,7 +245,7 @@ permalink: /
   learning to be integrated with physical modeling in a rigorous, reliable,
   and computationally effective manner.
 </p>
-```
+
 
 
 
