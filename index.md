@@ -186,13 +186,13 @@ permalink: /
 
 <p>
   BongSeok Kim is a Ph.D. student in the School of Mechanical Engineering
-  at Purdue University, advised by Professor Guang Lin in the Department
-  of Mathematics and the School of Mechanical Engineering, and Professor
+  at Purdue University, advised by Prof. Guang Lin in the Department
+  of Mathematics and the School of Mechanical Engineering, and Prof.
   Li Qiao in the School of Aeronautics and Astronautics.
 </p>
 
 <p>
-  Prior to joining Purdue University, he studied aerospace engineering under the supervision of Professor Kyunghoon Lee, where he conducted research in computational mechanics and reduced-order modeling. In particular, he worked on computational methodologies and applications based on reduced basis methods for the efficient simulation of complex engineering systems, as well as the theory of a posteriori error estimation for quantitatively assessing the reliability of reduced-order models.
+  Prior to joining Purdue University, he studied aerospace engineering under the supervision of Prof. Kyunghoon Lee in PNU, where he conducted research in computational mechanics and reduced-order modeling. In particular, he worked on computational methodologies and applications based on reduced basis methods for the efficient simulation of complex engineering systems, as well as the theory of <i>a posteriori</i> error estimation for quantitatively assessing the reliability of reduced-order models.
 </p>
 
 <p>
