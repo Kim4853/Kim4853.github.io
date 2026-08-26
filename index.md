@@ -191,9 +191,7 @@ permalink: /
   Li Qiao in the School of Aeronautics and Astronautics.
 </p>
 
-<p>
-  Prior to joining Purdue University, he studied aerospace engineering under the supervision of Prof. Kyunghoon Lee in PNU, where he conducted research in computational mechanics and reduced-order modeling. In particular, he worked on computational methodologies and applications based on reduced basis methods for the efficient simulation of complex engineering systems, as well as the theory of <i>a posteriori</i> error estimation for quantitatively assessing the reliability of reduced-order models.
-</p>
+<p> Prior to joining Purdue University, under the supervision of Prof. Kyunghoon Lee at PNU, he studied aerospace engineering and conducted research in computational mechanics and reduced-order modeling. In particular, his research focused on reduced basis (RB) methods for the efficient simulation of large-scale engineering systems, including the development and application of computational methodologies and <i>a posteriori</i> error estimation for quantitatively assessing the reliability of reduced-order models. </p>
 
 <p>
   His current research lies at the intersection of scientific machine learning, computational physics, and applied mathematics, with a focus on developing new computational and machine learning methodologies for complex physical systems. He is particularly interested in problems where conventional simulation is limited by high computational cost, unresolved physical scales, incomplete information, or uncertainty. These methodologies are developed, validated, and applied across a range of scientific and engineering problems, including radiative transfer, molecular dynamics, data-driven discovery of physical laws, uncertainty quantification, and digital twins.
