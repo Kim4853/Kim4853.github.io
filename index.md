@@ -192,7 +192,7 @@ permalink: /
 </p>
 
 <p> 
-His research lies at the intersection of scientific machine learning, computational physics, and applied mathematics, with a focus on developing new computational and machine learning methodologies for complex physical systems. He is particularly interested in problems where conventional simulation is limited by high computational cost, unresolved physical scales, incomplete information, or uncertainty. These methodologies are developed, validated, and applied across a range of scientific and engineering problems, including radiative transfer, molecular dynamics, data-driven discovery of physical laws, uncertainty quantification, and digital twins.
+His research lies at the intersection of scientific machine learning, computational physics, and applied mathematics. He develops computational and machine learning methods that preserve fundamental mathematical and physical properties of governing equations, with particular interests in stability, hyperbolicity, and multiscale behavior, as well as uncertainty quantification. His current research includes machine learning for PDEs and kinetic equations, neural operators, generative modeling, multifidelity modeling, and data-driven discovery of physical laws. These methods are applied across problems in radiative transfer, molecular dynamics, multiphysics systems, and computational mechanics, with the broader goal of building reliable machine learning models for scientific computing.
 </p>
 
 
