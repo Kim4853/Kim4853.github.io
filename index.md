@@ -973,6 +973,16 @@ His research lies at the intersection of scientific machine learning, computatio
 
   </ol>
 
+<section>
+  <h2>Reviewer</h2>
+
+  <ul class="research-list">
+    <li>
+      <i>Mathematics and Computers in Simulation</i>, 2026
+    </li>
+  </ul>
+</section>
+
 </section>
 
 
