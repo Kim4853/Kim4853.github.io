@@ -6,133 +6,41 @@ permalink: /columns/
 
 # Thoughts on AI and Academic Research
 
-*September 2026*
+*September 2026* (modified)
 
-I am currently a Ph.D. student in mechanical engineering, working on partial differential equations, numerical methods, and scientific machine learning. I do not primarily study AI itself. I am simply a researcher who now uses AI regularly as part of my research.
+I am a Ph.D. student in mechanical engineering, with research interests in machine learning, computational science, and applied mathematics. AI is both closely related to my field and deeply integrated into how I work.
 
-Over the past year, the way I work has changed considerably. I use AI to read papers, understand unfamiliar methods, check mathematical derivations, write and debug code, implement numerical methods, and examine weaknesses in research ideas.
+Over the past year, I have used AI to read papers, examine mathematical arguments, develop numerical methods, write and debug code, analyze results, and explore new ideas. More importantly, it has changed how quickly I can move from an idea to an implementation, examine the result, and decide what to try next.
 
-Discussions about AI in academia often seem to fall into two extremes. Some believe that AI will soon replace much of what researchers do. Others argue that AI is too unreliable to play a serious role in research.
+Discussions about AI in academia often fall into two extremes. Some expect it to replace much of what researchers do, while others consider it too unreliable to play a serious role in science. I am not confident in either view. The technology is changing too quickly to predict what research will look like five or ten years from now.
 
-I do not think we know enough to be confident about either position.
-
-What is easier to see is that AI is already changing how research is done. We do not know what academic research will look like five or ten years from now. But we can look at what is happening now and think about what it may mean.
-
-These are ten observations from my perspective as a Ph.D. student working in applied mathematics and computational science.
+What is easier to discuss is what is already changing.
 
 ---
 
-## 1. AI has already reduced the time required for many research tasks
+## AI is lowering the cost of exploration
 
-AI in research is no longer limited to improving English or summarizing text.
+Many research tasks that once required substantial time can now be attempted much more quickly.
 
-Current systems can help researchers review literature, understand unfamiliar code, write and debug programs, work through mathematical derivations, implement algorithms, and compare different methods.
+AI can help a researcher understand an unfamiliar method, inspect existing code, produce an initial implementation, work through a derivation, or compare several approaches. More capable systems can modify and run programs, inspect outputs, and iterate on the results.
 
-Newer AI tools can go further. They can work with several files, modify code, run programs, inspect results, and repeat these steps with relatively little input from the user.
+None of this means that the output is necessarily correct. AI can invent references, make mathematical mistakes, introduce subtle bugs, and confidently explain incorrect statements. But producing a first attempt has become much cheaper.
 
-This does not mean that AI can work as an independent researcher.
+This matters because research is fundamentally exploratory. Instead of spending a week implementing one idea, it may become possible to examine several alternatives before deciding which deserves serious attention.
 
-It can invent references, make mathematical mistakes, introduce subtle errors into code, and explain incorrect statements with considerable confidence.
+The same applies to writing and programming. As producing reasonable prose and functional code becomes easier, the ability to produce everything from scratch may become relatively less important. Understanding what has been produced, and deciding whether it is useful, becomes more important.
 
-The important change is not that AI is always correct. It is that producing a first attempt has become much easier.
-
-A researcher can now test more implementations, derivations, and ideas in the same amount of time.
+There is also a broader consequence. If producing research becomes cheaper while evaluating it remains expensive, academic publishing will face increasing pressure. More results can be generated and submitted, but the time available to examine them does not increase at the same rate.
 
 ---
 
-## 2. Writing and coding may become less valuable as skills on their own
+## Verification may become the real bottleneck
 
-Academic writing has traditionally required considerable time, especially for researchers whose first language is not English.
+In my own work, I increasingly spend less time producing everything from the beginning and more time deciding whether a result is correct, useful, and worth pursuing.
 
-That burden has already decreased.
+AI can generate a plausible mathematical argument very quickly. Someone still has to examine the assumptions, identify gaps, search for counterexamples, and determine whether the result actually matters.
 
-If the scientific content and logical structure are clear, AI can help turn them into reasonably polished academic writing.
-
-Something similar is happening with programming.
-
-AI can produce an initial implementation of an unfamiliar numerical method, explain a library, translate code, and help find bugs.
-
-This does not mean that researchers no longer need to understand writing or programming.
-
-Someone still needs to recognize when an argument is poorly structured or when a program is wrong.
-
-What may change is the value placed on producing everything from scratch. Understanding and evaluating the result may become relatively more important.
-
----
-
-## 3. Lower costs of producing research may put pressure on academic publishing
-
-AI can reduce the time required for several parts of preparing a paper.
-
-Literature review, programming, figure preparation, editing, and preliminary analysis can all be accelerated.
-
-If producing a paper becomes easier, it is reasonable to expect more papers to be submitted.
-
-The time available to editors and reviewers, however, does not increase in the same way.
-
-Peer review already depends heavily on the limited time of researchers. A substantial increase in submissions would place additional pressure on the current system.
-
-We may see more papers rejected before review, greater use of automated screening, changes in how peer review works, or more emphasis on evaluation after publication.
-
-I do not know which approach will become common.
-
-The basic problem is simpler: producing research may become much cheaper, while carefully evaluating research remains expensive.
-
----
-
-## 4. AI makes mistakes, but researchers do too
-
-Reliability is one of the clearest problems with using AI in research.
-
-AI can invent papers, make mathematical errors, produce incorrect code, and sometimes adjust its answer too strongly toward what the user appears to want.
-
-Using such results without checking them is obviously risky.
-
-But mistakes are not unique to AI.
-
-Published papers also contain mathematical errors, software bugs, statistical problems, results that cannot be reproduced, and interpretations that go beyond the evidence. Peer review does not reproduce every derivation, program, or numerical experiment in a paper.
-
-For this reason, I think the more useful question is not simply whether a result came from a human or from AI.
-
-The important question is whether the result can be checked independently.
-
-AI should not be trusted simply because its answer sounds convincing. But a result should not automatically be considered worthless simply because AI was involved in producing it.
-
-What matters scientifically is whether the claim remains valid after careful examination.
-
----
-
-## 5. For Ph.D. students, AI creates both opportunities and new competition
-
-For a Ph.D. student, the immediate benefits are significant.
-
-It is easier to enter an unfamiliar topic, understand the basic structure of a numerical method, build an initial implementation, and explore ideas outside a narrow area of expertise.
-
-A single researcher can attempt projects that would previously have required considerably more time.
-
-But everyone else has access to similar tools.
-
-If researchers generally become more productive, expectations may rise as well.
-
-For that reason, simply knowing how to use AI is unlikely to remain a major advantage.
-
-Using AI may eventually become an ordinary part of research, just as programming and scientific computing already are in many fields.
-
----
-
-## 6. For now, judgment is becoming more important relative to production
-
-In my own work, I increasingly spend less time producing everything from the beginning and more time checking, correcting, and deciding what is worth pursuing.
-
-This is particularly noticeable in mathematics.
-
-AI can propose a theorem or produce a proof very quickly. That does not mean that the theorem is true.
-
-Someone still has to examine the assumptions, identify gaps in the argument, look for counterexamples, and determine whether the result is actually useful.
-
-The same problem appears in numerical research.
-
-A convincing result may reflect real physics, but it may also come from grid resolution, numerical diffusion, boundary conditions, data leakage, optimization, or some other artifact.
+The same problem appears in numerical research. A convincing result may represent real physics, but it may also come from grid resolution, numerical diffusion, boundary conditions, data leakage, optimization choices, or some other artifact.
 
 For now, I find three questions particularly important:
 
@@ -142,118 +50,62 @@ For now, I find three questions particularly important:
 
 **Why is this scientifically important?**
 
-Producing an answer quickly and answering these questions reliably are still very different things.
+This is why I do not think technical knowledge becomes unnecessary as AI improves. Mathematical knowledge is needed to recognize a questionable argument. Numerical analysis is needed to understand suspicious computational behavior. Knowledge of the literature and physics is needed to determine whether a result is new or meaningful.
+
+At the same time, mistakes are not unique to AI. Published research also contains mathematical errors, software bugs, statistical problems, and conclusions that exceed the evidence.
+
+For this reason, I find the distinction between "human-generated" and "AI-generated" less useful than the distinction between **verifiable and unverifiable claims**.
+
+The relevant question is not who produced a result, but whether the result survives independent examination.
 
 ---
 
-## 7. Technical knowledge does not become unnecessary
+## The human-AI division of labor will probably keep changing
 
-One possible reaction to AI is to conclude that researchers no longer need to study mathematics deeply or become good programmers because AI can do much of the work.
+A common argument is that humans will remain necessary because someone has to verify what AI produces.
 
-At least for now, I think this conclusion is premature.
-
-If producing possible results becomes easier, researchers may simply have more results to examine.
-
-Recognizing a questionable mathematical argument requires mathematical knowledge. Recognizing a suspicious numerical result requires an understanding of numerical methods. Determining whether a contribution is actually new requires knowledge of the literature.
-
-Using AI frequently and being able to evaluate its answers are not the same ability.
-
-For this reason, I do not think learning how to prompt an AI system can replace technical expertise.
-
-AI changes how that expertise is used. It does not currently remove the need for it.
-
----
-
-## 8. Verification may become an important bottleneck
-
-AI is making it much faster to produce possible answers, algorithms, and mathematical arguments.
-
-Checking them carefully can still take much longer.
-
-An AI system may propose a new method within minutes. Determining whether the method is actually correct may require hours, days, or even longer.
-
-This matters especially in applied mathematics and computational science.
-
-A program running without errors does not mean that the method is correct. A numerical result looking reasonable is not enough to establish its validity. A proof that sounds convincing is not necessarily a valid proof.
-
-For the near future, verification may therefore take up a larger part of scientific work.
-
-But I do not assume that this will remain true indefinitely.
-
-AI can also be used to check results. Formal proof tools, automated tests, independent numerical experiments, and comparisons between different AI systems can all help reduce the cost of verification.
-
-If these capabilities improve, the current arrangement in which AI produces results and humans check them may itself be temporary.
-
----
-
-## 9. If AI becomes good at verification, the problem changes
-
-A common response to recent progress in AI is that human researchers will remain necessary because someone has to verify what AI produces.
-
-For now, I largely agree.
+For now, I largely agree. I use AI extensively, but I still consider myself responsible for understanding and checking the results that enter my work.
 
 I am less certain that this is a permanent answer.
 
-There is no clear reason to assume that AI will continue improving at producing results while making little progress at checking them.
+There is no obvious reason why AI should improve at producing results while making little progress at checking them. Future systems may generate an argument, test it with formal tools, implement an algorithm, run numerical experiments, compare alternative methods, and use other systems to independently criticize the result.
 
-Future research may involve one AI system proposing a result, other systems checking it independently, automated tools testing the implementation, and researchers overseeing the process.
+If that happens, researchers may increasingly supervise a collection of computational tools rather than personally reconstruct every step.
 
-It is also possible that the amount and complexity of research produced by AI could eventually become too large for one person to examine every step directly.
+This would create new problems. How much evidence is sufficient? What happens when independent systems disagree? Who is responsible for a scientific claim when no individual has reproduced every part of the analysis?
 
-At that point, different questions arise.
+Eventually, the amount and complexity of machine-generated research may even exceed what an individual researcher can directly inspect. At that point, verification itself becomes a problem of scientific infrastructure.
 
-How much should we trust an automated verification process?
-
-What should we do when different systems reach different conclusions?
-
-What evidence should be considered sufficient?
-
-What does scientific responsibility mean if no individual researcher has personally reproduced every part of the work?
-
-These are different problems from the current debate about whether researchers should use AI.
-
-I do not think anyone knows what the stable answer will be.
+I therefore hesitate to define any particular task as permanently human. The boundary is already moving, and it will probably move again.
 
 ---
 
-## 10. What makes sense today may not make sense in the long run
+## There are too many unsolved problems to ignore useful help
 
-For someone doing a Ph.D. today, the practical response seems fairly clear to me.
+This is ultimately why I find the debate over whether researchers "should" use AI somewhat narrow.
 
-I should use the best tools available while developing enough mathematical and scientific knowledge to understand and check the work I produce with them.
+There is still an enormous amount that we do not know how to compute, predict, or design.
 
-At present, this means becoming better at identifying incorrect arguments, understanding numerical behavior, distinguishing real results from artifacts, reading the literature critically, and deciding which problems are worth studying.
+Turbulence remains difficult to predict across realistic regimes. Connecting molecular behavior to continuum models remains a major challenge. Large multiphysics simulations are often prohibitively expensive. Semiconductor manufacturing involves coupled processes across scales that are difficult to model and control. Nuclear reactors and fusion systems require reliable prediction under extreme conditions. Predicting degradation and remaining life in aircraft engines remains difficult. Space systems increasingly require autonomous decisions under limited observations. Many problems in climate, energy, materials, and engineering remain beyond what we can fully resolve with existing computational resources.
 
-But I do not see this as a permanent description of the role of a researcher.
+These problems are not waiting for researchers because we lack things to work on. In many cases, we are limited by computational cost, incomplete models, sparse observations, uncertainty, fragmented knowledge, and the finite amount of time and expertise available to humans.
 
-Today, AI may produce a result and a human may spend substantial time checking it.
+No individual researcher can read every relevant paper, master every neighboring field, implement every method, explore every hypothesis, or run every possible computational experiment.
 
-Later, AI may both produce and check the result while a human oversees the broader process.
+If AI can help overcome some of these limitations, I think we need that help.
 
-Beyond that, it becomes much harder to predict what the next limitation will be.
+The important possibility is not that AI can write a paragraph or generate code faster. It is that AI may allow researchers to explore problems that were previously too expensive, too complicated, too interdisciplinary, or simply too time-consuming. It may help connect mathematical ideas with physical models, numerical algorithms, software, experiments, and knowledge developed in different fields.
 
-The technology is changing too quickly for me to assume that any particular research task will remain uniquely human.
+I understand why this can be uncomfortable. Researchers spend years developing the ability to derive equations, write code, understand difficult papers, and solve problems independently. When AI begins to perform some of these tasks, it can feel as though part of that expertise is being devalued.
 
----
+But preserving our intellectual territory is not the purpose of science.
 
-## Conclusion
+If AI can complete in an hour something that would otherwise take me a week, I can spend that week asking a harder question. If it can help me understand a method outside my field, I can test whether that method is useful for a problem I would otherwise never attempt. If it can connect ideas that I would not have connected myself, then the space of problems I can explore becomes larger.
 
-I do not know whether AI will eventually replace large parts of academic research. I also do not think anyone currently knows what the role of a researcher will look like in the long run.
+Of course, that help must be treated critically. AI can be wrong, and researchers remain responsible for the claims they make. Mathematics, numerical analysis, physical understanding, and scientific judgment remain essential for deciding what to trust and what is worth pursuing.
 
-What we can observe today is more limited.
+But I would rather treat the limitations of AI as problems to be studied and managed than use them as reasons to reject the technology.
 
-Writing, coding, literature review, and preliminary analysis are becoming faster. Researchers can test more ideas in less time. At the same time, determining whether those results are correct and scientifically meaningful remains difficult.
+There are too many important problems left unsolved.
 
-For now, this makes judgment and verification increasingly important.
-
-As a Ph.D. student, the most reasonable approach I see today is to use AI actively while continuing to develop the technical ability needed to evaluate its results.
-
-But I see this as a response to the current state of AI, not as a permanent solution.
-
-If AI also becomes much better at verification, the division of work between humans and AI will change again. The amount or complexity of research produced by machines may eventually exceed what an individual researcher can directly examine.
-
-What becomes difficult after that is much harder to predict. The role of researchers may change again, and the problems we face at that point may be quite different from the ones we are discussing today.
-
-For that reason, I am skeptical both of claims that AI will solve everything and of claims that it can simply be ignored.
-
-**Academic research is already changing. Ignoring AI will not stop that change.**
+If that requires giving up some pride about what researchers are supposed to do entirely by themselves, I think that is a reasonable price to pay.

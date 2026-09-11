@@ -191,9 +191,13 @@ permalink: /
   Li Qiao in the School of Aeronautics and Astronautics.
 </p>
 
-<p> 
-His research lies at the intersection of scientific machine learning, computational physics, and applied mathematics. He develops computational and machine learning methods that preserve fundamental mathematical and physical properties of governing equations, with particular interests in stability, hyperbolicity, and multiscale behavior, as well as uncertainty quantification. His current research includes machine learning for PDEs and kinetic equations, neural operators, generative modeling, multifidelity modeling, and data-driven discovery of physical laws. These methods are applied across problems in radiative transfer, molecular dynamics, multiphysics systems, and computational mechanics, with the broader goal of building reliable machine learning models for scientific computing.
+<p>
+His research lies at the intersection of machine learning, computational science, and applied mathematics, with a focus on developing methodologies for efficient, reliable, and scalable scientific computation.
+His current research spans scientific machine learning, multiscale physics, uncertainty quantification, and computational mechanics.
+He is also interested in the mathematical foundations of scientific computing, particularly properties such as entropy stability, hyperbolicity, and conservation, and in incorporating these structures into learning algorithms.
+More broadly, he is interested in how advances in AI and high-performance computing can enable new approaches to large-scale simulation, scientific discovery, digital twins, and computational modeling of complex physical systems.
 </p>
+
 
 
 
@@ -532,7 +536,7 @@ His research lies at the intersection of scientific machine learning, computatio
             Journal of Computational Physics,
           </span>
           <span class="publication-status">
-            Submitted
+            Under review
           </span>
         </div>
       </li>
@@ -553,8 +557,14 @@ His research lies at the intersection of scientific machine learning, computatio
             Machine Learning with Applications,
           </span>
           <span class="publication-status">
-            Submitted
+            Under revision
           </span>
+                  <a
+            class="publication-link"
+            href="https://arxiv.org/abs/2608.11255"
+          >
+          https://arxiv.org/abs/2608.11255
+          </a>
 
         </div>
       </li>

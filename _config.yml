@@ -19,8 +19,8 @@ navigation:
     url: /research/
   - title: Publications
     url: /publications/
-  - title: Columns
-    url: /columns/
+  # - title: Columns
+  #   url: /columns/
   - title: Awards
     url: /awards/
   - title: CV
