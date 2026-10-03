@@ -670,3 +670,14 @@ p {
   border-top: 1px solid #d6d6d6;
   margin: 1.8rem 0 1.6rem;
 }
+
+
+/* 전체 페이지 본문 */
+.page-content {
+  font-size: 15px;
+}
+
+/* 별도 크기가 지정된 프로필 정보 */
+.profile-details {
+  font-size: 15px;
+}
