@@ -103,7 +103,7 @@ permalink: /publications/
 <div class="wide-content">
 
 
-  <section class="publications-section">
+ <section class="publications-section">
 
     <h2 class="publications-heading">
       Publications:
@@ -204,6 +204,65 @@ permalink: /publications/
         </div>
       </li>
 
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>, Heesung Lee
+            and Kyunghoon Lee*,
+          </span>
+
+          <span class="publication-title">
+            “Structural Design Optimization of a Launch Vehicle Propellant
+            Tank using Kriging,”
+          </span>
+
+          <span class="publication-journal">
+            Journal of the Korean Society for Aeronautical & Space Sciences,
+          </span>
+
+          <span class="publication-status">
+            336, 120196.
+          </span>
+
+          <a
+            class="publication-link"
+            href="10.5139/JKSAS.2025.53.10.1027 "
+          >
+          10.5139/JKSAS.2025.53.10.1027 
+          </a>
+         </div>
+      </li>
+
+
+      <li>
+        <div class="publication-entry">
+
+          <span class="publication-authors">
+            Dayoung Kang, Shinseong Kang, <span class="publication-me">BongSeok Kim</span>
+            and Kyunghoon Lee*,
+          </span>
+
+          <span class="publication-title">
+            “Condition-based fatigue life monitoring of a high-pressure
+            hydrogen storage vessel using a reduced basis digital twin,”
+          </span>
+
+          <span class="publication-journal">
+            Engineering Structures,
+          </span>
+
+          <span class="publication-status">
+            336, 120196.
+          </span>
+
+          <a
+            class="publication-link"
+            href="https://doi.org/10.1016/j.engstruct.2025.120196"
+          >
+          https://doi.org/10.1016/j.engstruct.2025.120196
+          </a>
+        </div>
+      </li>
 
       <li>
         <div class="publication-entry">
@@ -268,65 +327,7 @@ permalink: /publications/
       </li>
 
 
-      <li>
-        <div class="publication-entry">
-          <span class="publication-authors">
-            <span class="publication-me">BongSeok Kim</span>, Heesung Lee
-            and Kyunghoon Lee*,
-          </span>
 
-          <span class="publication-title">
-            “Structural Design Optimization of a Launch Vehicle Propellant
-            Tank using Kriging,”
-          </span>
-
-          <span class="publication-journal">
-            Engineering Structures,
-          </span>
-
-          <span class="publication-status">
-            336, 120196.
-          </span>
-
-          <a
-            class="publication-link"
-            href="10.5139/JKSAS.2025.53.10.1027 "
-          >
-          10.5139/JKSAS.2025.53.10.1027 
-          </a>
-         </div>
-      </li>
-
-
-      <li>
-        <div class="publication-entry">
-
-          <span class="publication-authors">
-            Dayoung Kang, Shinseong Kang, <span class="publication-me">BongSeok Kim</span>
-            and Kyunghoon Lee*,
-          </span>
-
-          <span class="publication-title">
-            “Condition-based fatigue life monitoring of a high-pressure
-            hydrogen storage vessel using a reduced basis digital twin,”
-          </span>
-
-          <span class="publication-journal">
-            Engineering Structures,
-          </span>
-
-          <span class="publication-status">
-            336, 120196.
-          </span>
-
-          <a
-            class="publication-link"
-            href="https://doi.org/10.1016/j.engstruct.2025.120196"
-          >
-          https://doi.org/10.1016/j.engstruct.2025.120196
-          </a>
-        </div>
-      </li>
 
       <li>
         <div class="publication-entry">
@@ -357,7 +358,8 @@ permalink: /publications/
         </div>
       </li>
 
-<hr class="publication-divider">
+
+
       <li>
         <div class="publication-entry">
           <span class="publication-authors">
@@ -366,16 +368,21 @@ permalink: /publications/
           </span>
 
           <span class="publication-title">
-            “Bayesian Multi-fidelity Laplace Neural Operators for Parametric
-            Oscillatory Partial Differential Equations,”
+            “Active Learning with Bayesian Multi-Fidelity Laplace Neural Operators for Oscillatory Parametric PDEs,”
           </span>
 
           <span class="publication-journal">
-            Computer Methods in Applied Mechanics and Engineering,
+            Journal of Computational Physics,
           </span>
           <span class="publication-status">
-            To be submitted (July 2026)
+            Under review
           </span>
+                    <a
+            class="publication-link"
+            href="arXiv:2502.00550v2"
+          >
+          arXiv:2502.00550v2
+          </a>
         </div>
       </li>
 
@@ -395,9 +402,78 @@ permalink: /publications/
             Machine Learning with Applications,
           </span>
           <span class="publication-status">
-            To be submitted (July 2026)
+            Under revision
+          </span>
+                  <a
+            class="publication-link"
+            href="https://arxiv.org/abs/2608.11255"
+          >
+          https://arxiv.org/abs/2608.11255
+          </a>
+
+        </div>
+      </li>
+      <h2 class="publications-heading">
+    Preprints
+  </h2>
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Jiahao Zhang, and Guang Lin*,
           </span>
 
+          <span class="publication-title">
+            “Lego-Diffusion model for multiphysics operator learning”
+          </span>
+
+          <span class="publication-journal">
+            
+          </span>
+          <span class="publication-status">
+            
+          </span>
+        </div>
+      </li>
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Jiahao Zhang, and Guang Lin*,
+          </span>
+
+          <span class="publication-title">
+            “A Hyperbolic Neural Closure for Moment Systems of the Boltzmann Transport Equation”
+          </span>
+
+          <span class="publication-journal">
+            
+          </span>
+          <span class="publication-status">
+            
+          </span>
+        </div>
+      </li>
+
+      <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Suman Chakraborty, Guang Lin*, Li Qiao*
+          </span>
+
+          <span class="publication-title">
+            “MD-infored Operator Learning of Interfacial Structure for Vapor–Liquid Equilibrium”
+          </span>
+
+          <span class="publication-journal">
+            
+          </span>
+          <span class="publication-status">
+            
+          </span>
         </div>
       </li>
 
@@ -415,7 +491,30 @@ permalink: /publications/
   </h2>
 
   <ol class="publication-list">
+<li>
+  <div class="publication-entry">
 
+    <span class="publication-authors">
+      <span class="publication-me">BongSeok Kim</span>,
+      Johannes Krotz, Dinshaw S. Balsara, Ryan G. McClarren,
+      Jiahao Zhang, and Guang Lin,
+    </span>
+
+    <span class="publication-title">
+      “Hyperbolic Neural Closure for Kinetic Transfer Equations,”
+    </span>
+
+    <span class="publication-journal">
+      SIAM Great Lakes Section Meeting (GLSIAM) 2026,
+    </span>
+
+    <span class="publication-status">
+      Purdue University, West Lafayette, Indiana, USA,
+      September 2026. Oral Presentation.
+    </span>
+
+  </div>
+</li>
     <li>
       <div class="publication-entry">
 
