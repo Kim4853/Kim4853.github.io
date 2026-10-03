@@ -16,6 +16,28 @@ My research combines structure-preserving learning, uncertainty quantification, 
 
 ## 1. Structure-Preserving Scientific Machine Learning
 
+<figure style="margin: 24px 0; text-align: center;">
+  <img
+    src="{{ '/assets/images/structure-preserving.png' | relative_url }}"
+    alt="Structure-preserving scientific machine learning"
+    style="width: 100%; max-width: 900px; height: auto;"
+  >
+  <figcaption style="margin-top: 10px; font-size: 0.9em; color: #666;">
+    Structure-preserving learning for reliable scientific simulations.
+  </figcaption>
+</figure>
+
+<figure style="margin: 24px 0; text-align: center;">
+  <img
+    src="{{ '/assets/images/bc.png' | relative_url }}"
+    alt="Structure-preserving scientific machine learning"
+    style="width: 100%; max-width: 900px; height: auto;"
+  >
+  <figcaption style="margin-top: 10px; font-size: 0.9em; color: #666;">
+    Structure-preserving learning for PDE boundary conditions.
+  </figcaption>
+</figure>
+
 I develop learning algorithms that preserve conservation, symmetry, hyperbolicity, and stability. These algorithms rigorously guarantee physical upper and lower bounds. I tackle challenging simulations where loss-based constraints fail.
 
 **Practical goal:** Accelerate challenging, numerically sensitive, large-scale scientific simulations in nuclear fusion, reactor modeling, and high-energy physics, including high-fidelity radiation hydrodynamics.
@@ -32,6 +54,17 @@ I develop learning algorithms that preserve conservation, symmetry, hyperbolicit
 ---
 
 ## 2. Uncertainty Quantification and Propagation in AI
+
+<figure style="margin: 24px 0; text-align: center;">
+  <img
+    src="{{ '/assets/images/uq.png' | relative_url }}"
+    alt="Structure-preserving scientific machine learning"
+    style="width: 100%; max-width: 900px; height: auto;"
+  >
+  <figcaption style="margin-top: 10px; font-size: 0.9em; color: #666;">
+    Uncertainty quantification for the Laplace neural operator in predicting the dynamic response of composite structures.
+  </figcaption>
+</figure>
 
 I develop efficient and robust methods for posterior estimation. I propagate AI model uncertainty through simulations to assess its effect on predicted physical quantities.
 
@@ -50,6 +83,17 @@ I develop efficient and robust methods for posterior estimation. I propagate AI 
 
 ## 3. Multiscale Simulation
 
+<figure style="margin: 24px 0; text-align: center;">
+  <img
+    src="{{ '/assets/images/md.png' | relative_url }}"
+    alt="Structure-preserving scientific machine learning"
+    style="width: 100%; max-width: 900px; height: auto;"
+  >
+  <figcaption style="margin-top: 10px; font-size: 0.9em; color: #666;">
+Molecular simulation of long-chain hydrocarbon combustion.
+  </figcaption>
+</figure>
+
 I use molecular simulations to study two-phase flows, interfaces, and bubble dynamics where continuum PDE models break down. I develop machine learning models that link molecular behavior to continuum descriptions.
 
 **Practical goal:** Capture molecular effects in scalable continuum simulations.
@@ -67,6 +111,17 @@ I use molecular simulations to study two-phase flows, interfaces, and bubble dyn
 ---
 
 ## 4. Multifidelity Modeling and Adaptive Computation
+
+<figure style="margin: 24px 0; text-align: center;">
+  <img
+    src="{{ '/assets/images/mf.png' | relative_url }}"
+    alt="Structure-preserving scientific machine learning"
+    style="width: 100%; max-width: 900px; height: auto;"
+  >
+  <figcaption style="margin-top: 10px; font-size: 0.9em; color: #666;">
+Multifidelity neural operator modeling with uncertainty-guided adaptive selection of high-fidelity samples.
+  </figcaption>
+</figure>
 
 I combine low- and high-fidelity models. I adaptively select informative simulations and observations to reduce computational and data acquisition costs.
 
