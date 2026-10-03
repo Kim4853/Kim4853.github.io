@@ -10,7 +10,7 @@ My goal is to accelerate large-scale, high-dimensional, and multiscale scientifi
 
 My research combines structure-preserving learning, uncertainty quantification, molecular–continuum modeling, and multifidelity computation. I rigorously enforce physical and mathematical constraints, quantify predictive uncertainty, and connect models across scales and levels of fidelity. These methods address numerically sensitive problems where conventional learning approaches fail, while reducing the cost of high-fidelity simulation and digital twins.
 
-My long-term goal is to solve practical industrial problems through collaboration with industry partners. I aim to integrate these computational methods into the design, analysis, and operation of real engineering systems.
+**My long-term goal is to solve practical industrial problems through collaboration with industry partners. I aim to integrate these computational methods into the design, analysis, and operation of real engineering systems.**
 
 ---
 
