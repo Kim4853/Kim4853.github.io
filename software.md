@@ -8,12 +8,13 @@ permalink: /columns/
 
 *September 2026* (modified)
 
-I am a Ph.D. student in mechanical engineering, with research interests in machine learning, computational science, and applied mathematics. AI is both closely related to my field and deeply integrated into how I work.
-
-Over the past year, I have used AI to read papers, examine mathematical arguments, develop numerical methods, write and debug code, analyze results, and explore new ideas. More importantly, it has changed how quickly I can move from an idea to an implementation, examine the result, and decide what to try next.
-
-Discussions about AI in academia often fall into two extremes. Some expect it to replace much of what researchers do, while others consider it too unreliable to play a serious role in science. I am not confident in either view. The technology is changing too quickly to predict what research will look like five or ten years from now.
-
+I am a Ph.D. student in mechanical engineering, with research interests in machine learning, computational science, and applied mathematics. 
+AI is both closely related to my field and deeply integrated into how I work.
+Over the past year, I have used AI to read papers, examine mathematical arguments, develop numerical methods, write and debug code, analyze results, and explore new ideas. 
+More importantly, it has changed how quickly I can move from an idea to an implementation, examine the result, and decide what to try next.
+Discussions about AI in academia often fall into two extremes. Some expect it to replace much of what researchers do, while others consider it too unreliable to play a serious role in science. 
+I am not confident in either view. 
+The technology is changing too quickly to predict what research will look like five or ten years from now.
 What is easier to discuss is what is already changing.
 
 ---
@@ -21,15 +22,10 @@ What is easier to discuss is what is already changing.
 ## AI is lowering the cost of exploration
 
 Many research tasks that once required substantial time can now be attempted much more quickly.
-
 AI can help a researcher understand an unfamiliar method, inspect existing code, produce an initial implementation, work through a derivation, or compare several approaches. More capable systems can modify and run programs, inspect outputs, and iterate on the results.
-
 None of this means that the output is necessarily correct. AI can invent references, make mathematical mistakes, introduce subtle bugs, and confidently explain incorrect statements. But producing a first attempt has become much cheaper.
-
 This matters because research is fundamentally exploratory. Instead of spending a week implementing one idea, it may become possible to examine several alternatives before deciding which deserves serious attention.
-
 The same applies to writing and programming. As producing reasonable prose and functional code becomes easier, the ability to produce everything from scratch may become relatively less important. Understanding what has been produced, and deciding whether it is useful, becomes more important.
-
 There is also a broader consequence. If producing research becomes cheaper while evaluating it remains expensive, academic publishing will face increasing pressure. More results can be generated and submitted, but the time available to examine them does not increase at the same rate.
 
 ---
