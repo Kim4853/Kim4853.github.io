@@ -27,17 +27,6 @@ My research combines structure-preserving learning, uncertainty quantification, 
   </figcaption>
 </figure>
 
-<figure style="margin: 24px 0; text-align: center;">
-  <img
-    src="{{ '/assets/images/bc.png' | relative_url }}"
-    alt="Structure-preserving scientific machine learning"
-    style="width: 100%; max-width: 900px; height: auto;"
-  >
-  <figcaption style="margin-top: 10px; font-size: 0.9em; color: #666;">
-    Structure-preserving learning for PDE boundary conditions.
-  </figcaption>
-</figure>
-
 I develop learning algorithms that preserve conservation, symmetry, hyperbolicity, and stability. These algorithms rigorously guarantee physical upper and lower bounds. I tackle challenging simulations where loss-based constraints fail.
 
 **Practical goal:** Accelerate challenging, numerically sensitive, large-scale scientific simulations in nuclear fusion, reactor modeling, and high-energy physics, including high-fidelity radiation hydrodynamics.
