@@ -6,66 +6,97 @@ permalink: /research/
 
 # Research
 
-My research focuses on developing **mathematically grounded machine learning methodologies** for computational science. I aim to transform machine learning from a black-box approximation tool into a reliable computational framework for solving, discovering, and understanding complex physical systems.
+My goal is to accelerate large-scale, high-dimensional, and multiscale scientific computation. I develop machine learning algorithms and numerical methods that make challenging simulations faster, more reliable, and scalable.
 
-By integrating numerical analysis, mathematical structure, and physical principles directly into learning algorithms, I develop AI methodologies that are not only accurate but also reliable, scalable, and scientifically interpretable. My research spans scientific machine learning, data-driven physics discovery, uncertainty quantification, and digital twins for engineering applications.
+My research combines structure-preserving learning, uncertainty quantification, molecular–continuum modeling, and multifidelity computation. I rigorously enforce physical and mathematical constraints, quantify predictive uncertainty, and connect models across scales and levels of fidelity. These methods address numerically sensitive problems where conventional learning approaches fail, while reducing the cost of high-fidelity simulation and digital twins.
+
+My long-term goal is to solve practical industrial problems through collaboration with industry partners. I aim to integrate these computational methods into the design, analysis, and operation of real engineering systems.
 
 ---
 
-## 1. Scientific Machine Learning and Computational Science
+## 1. Structure-Preserving Scientific Machine Learning
 
-I focus on developing machine learning methodologies and numerical algorithms for computational science, with particular emphasis on partial differential equations and scientific computing. My long-term objective is to establish **scientific machine learning as a rigorous computational methodology** that complements traditional numerical simulation while enabling efficient prediction, simulation, and scientific discovery.
+I develop learning algorithms that preserve conservation, symmetry, hyperbolicity, and stability. These algorithms rigorously guarantee physical upper and lower bounds. I tackle challenging simulations where loss-based constraints fail.
 
-A central theme of my research is the integration of mathematical analysis with machine learning. I develop physically and mathematically consistent learning algorithms by preserving intrinsic structures arising from governing equations, including hyperbolicity, conservation laws, entropy structure, stability, and boundary conditions.
-
-Another major research direction is the development of machine learning methods for discovering governing equations, constitutive relations, and closure models directly from simulation and experimental data.
+**Practical goal:** Accelerate challenging, numerically sensitive, large-scale scientific simulations in nuclear fusion, reactor modeling, and high-energy physics, including high-fidelity radiation hydrodynamics.
 
 **Research Topics**
 
-- Scientific Machine Learning
-- Machine Learning for Partial Differential Equations
-- Operator Learning
+- Structure-Preserving Learning Algorithms
+- Hyperbolic PDE systems
+- Entropy Stability and Conservation Laws
+- Neural Moment Closures
+- Radiation Transport and Hydrodynamics
+- Numerical Analysis and Discontinuous Galerkin Methods
+
+---
+
+## 2. Uncertainty Quantification and Propagation in AI
+
+I develop efficient and robust methods for posterior estimation. I propagate AI model uncertainty through simulations to assess its effect on predicted physical quantities.
+
+**Practical goal:** Quantify how much we can trust AI predictions through uncertainty bounds.
+
+**Research Topics**
+
+- Bayesian Inference and Posterior Estimation
+- Generative Models for Inverse Problems
+- Ensemble Methods
+- Model Uncertainty and Its Propagation
+- Predictive Uncertainty Bounds
+- Calibration and Validation
+
+---
+
+## 3. Multiscale Simulation
+
+I use molecular simulations to study two-phase flows, interfaces, and bubble dynamics where continuum PDE models break down. I develop machine learning models that link molecular behavior to continuum descriptions.
+
+**Practical goal:** Capture molecular effects in scalable continuum simulations.
+
+**Research Topics**
+
+- Molecular Dynamics
+- Molecular–Continuum Coupling
+- Two-Phase Flows and Bubble Dynamics
+- Interfacial Transport and Evaporation
+- Vapor–Liquid Equilibrium
+- Transcritical and Supercritical Fluids
+- Learned Constitutive Relations
+
+---
+
+## 4. Multifidelity Modeling and Adaptive Computation
+
+I combine low- and high-fidelity models. I adaptively select informative simulations and observations to reduce computational and data acquisition costs.
+
+**Practical goal:** Minimize the cost of building accurate AI models and digital twins.
+
+**Research Topics**
+
+- Multifidelity Modeling
 - Reduced-Order Modeling
-- Multi-Fidelity Modeling
-- Data-Driven Physics Discovery
-- Numerical Analysis
-- Structure-Preserving Algorithms
-
----
-
-## 2. Uncertainty Quantification and Digital Twins
-
-I develop uncertainty-aware computational methodologies for reliable prediction and decision making under limited or noisy observations. My research integrates Bayesian inference, probabilistic modeling, and active learning to quantify predictive uncertainty and efficiently combine simulation with observational data.
-
-These methodologies provide the computational foundation for reliable digital twins and uncertainty-aware engineering analysis.
-
-**Research Topics**
-
-- Uncertainty Quantification
-- Bayesian Inference
-- Active Learning
+- Operator Learning
+- Active Learning and Experimental Design
+- Adaptive Sampling and Computation
 - Data Assimilation
-- Inverse Problems
 - Digital Twins
 
 ---
 
-## 3. Collaborative Research in Computational Engineering and Physical Sciences
+## Collaborative Research in Computational Engineering and Physical Sciences
 
-I actively collaborate with researchers across computational engineering, applied mathematics, and physical sciences to develop and validate machine learning methodologies for challenging multiscale and multidisciplinary problems. These collaborations enable fundamental methodologies to be translated into practical computational tools for complex engineering systems.
+I collaborate with researchers in computational engineering, applied mathematics, and physical sciences to develop and validate methods for challenging multiscale and multiphysics problems. These collaborations connect methodological development with practical simulation.
 
-### Transcritical and Supercritical Fluid Modeling (*Purdue University*)
+### 1. Transcritical and Supercritical Fluid Modeling (Purdue University)
 
-In collaboration with the *School of Aeronautics and Astronautics, Purdue University*, I develop machine learning and computational methods for transcritical and supercritical fluid systems. Representative research topics include thermodynamic modeling, transport phenomena, molecular dynamics, phase equilibrium, and high-pressure fluid mechanics.
+In collaboration with the **School of Aeronautics and Astronautics** and the **Department of Mathematics at Purdue University**, I develop machine learning and computational methods for transcritical and supercritical fluids. Research topics include thermodynamic modeling, transport phenomena, molecular dynamics, phase equilibrium, and high-pressure fluid mechanics.
 
-### Radiation Transport and Plasma Modeling (*University of Notre Dame*)
+### 2. Radiation Transport and Plasma Modeling (University of Notre Dame)
 
-In collaboration with the *Department of Physics* and the *Department of Aerospace and Mechanical Engineering, University of Notre Dame*, I develop structure-preserving machine learning methods and numerical algorithms for radiation transport and plasma modeling. Current research includes hyperbolic systems, moment methods, neural closure modeling, discontinuous Galerkin methods, and data-driven constitutive modeling.
+In collaboration with the **Department of Physics** and the **Department of Aerospace and Mechanical Engineering at the University of Notre Dame**, I develop structure-preserving learning algorithms and numerical methods for radiation transport and plasma modeling. Research topics include hyperbolic systems, moment methods, neural closures, discontinuous Galerkin methods, and data-driven constitutive modeling.
 
-### Molecular Simulation and Transport (*Purdue University*)
+### 3. Molecular Simulation and Transport (Mississippi State University)
 
-In collaboration with the *School of Aeronautics and Astronautics, Purdue University*, I develop machine learning methodologies for molecular simulations and transport phenomena. Representative applications include evaporation, vapor–liquid equilibrium, mass transport, and surrogate modeling based on molecular dynamics simulations.
+In collaboration with researchers at **Mississippi State University** and the **School of Aeronautics and Astronautics at Purdue University**, I develop machine learning methods for molecular simulations and transport phenomena. Applications include evaporation, vapor–liquid equilibrium, mass transport, and surrogate modeling using molecular dynamics data.
 
-### Computational Mechanics and Digital Twins (*Purdue University*)
-
-In collaboration with the *School of Aeronautics and Astronautics, Purdue University*, I develop reduced-order modeling techniques, uncertainty-aware computational methods, and digital twin technologies for computational mechanics. Representative applications include parameterized structural systems, scientific machine learning, and data-driven digital twins for engineering analysis.
