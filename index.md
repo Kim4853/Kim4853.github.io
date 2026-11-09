@@ -562,7 +562,7 @@ More broadly, his goal is to develop AI + computational methods that use high-pe
             Machine Learning with Applications,
           </span>
           <span class="publication-status">
-            Under revision
+            Accepted
           </span>
                   <a
             class="publication-link"
@@ -1029,6 +1029,22 @@ More broadly, his goal is to develop AI + computational methods that use high-pe
     <h2>News</h2>
 
     <table class="news-table">
+
+          <tr>
+        <td class="news-date">
+          November 2026
+        </td>
+
+        <td>
+          Our paper
+          <i>“Symbolic Machine Learning for Vapor–Liquid Equilibrium
+            Prediction in C<sub>x</sub>–N<sub>2</sub> Binary Mixtures”</i>
+          is accepted at
+          <i>
+            Machine Learning with Applications
+          </i>.
+        </td>
+      </tr>
 
       <tr>
         <td class="news-date">
