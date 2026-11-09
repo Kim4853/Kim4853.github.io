@@ -99,6 +99,9 @@ permalink: /publications/
 }
 </style>
 
+For academic publications and recent research activities, please refer to my
+[Google Scholar profile](https://scholar.google.com/citations?user=W_HjkfwAAAAJ&hl=en).
+
 
 <div class="wide-content">
 
