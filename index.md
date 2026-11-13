@@ -546,31 +546,7 @@ More broadly, his goal is to develop AI + computational methods that use high-pe
         </div>
       </li>
 
-      <li>
-        <div class="publication-entry">
-          <span class="publication-authors">
-            <span class="publication-me">BongSeok Kim</span>,
-            Jiahao Zhang, and Guang Lin*,
-          </span>
 
-          <span class="publication-title">
-            “Machine Learning Moment Closure for the Boltzmann Transport Equation: Enforcing Hyperbolicity,”
-          </span>
-
-          <span class="publication-journal">
-            Journal of Computational Physics,
-          </span>
-          <span class="publication-status">
-            Under review
-          </span>
-                    <a
-            class="publication-link"
-            href="https://arxiv.org/abs/2611.14894"
-          >
-          arXiv:2611.14894
-          </a>
-        </div>
-      </li>
 
 
       <li>
@@ -602,6 +578,25 @@ More broadly, his goal is to develop AI + computational methods that use high-pe
       <h2 class="publications-heading">
     Preprints
   </h2>
+  
+        <li>
+        <div class="publication-entry">
+          <span class="publication-authors">
+            <span class="publication-me">BongSeok Kim</span>,
+            Jiahao Zhang, and Guang Lin*,
+          </span>
+
+          <span class="publication-title">
+            “Machine Learning Moment Closure for the Boltzmann Transport Equation: Enforcing Hyperbolicity,”
+          </span>
+                    <a
+            class="publication-link"
+            href="https://arxiv.org/abs/2611.14894"
+          >
+          arXiv:2611.14894
+          </a>
+        </div>
+      </li>
 
       <li>
         <div class="publication-entry">
