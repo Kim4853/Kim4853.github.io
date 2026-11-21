@@ -506,7 +506,7 @@ More broadly, his goal is to develop AI + computational methods that use high-pe
           </span>
 
           <span class="publication-status">
-            Under Revision (July 2026).
+            Accepted (November 2026).
           </span>
 
           <a
@@ -564,13 +564,13 @@ More broadly, his goal is to develop AI + computational methods that use high-pe
             Machine Learning with Applications,
           </span>
           <span class="publication-status">
-            Accepted
+            26, 101063
           </span>
                   <a
             class="publication-link"
-            href="https://arxiv.org/abs/2608.11255"
+            href="https://doi.org/10.1016/j.mlwa.2026.101063"
           >
-          https://arxiv.org/abs/2608.11255
+          https://doi.org/10.1016/j.mlwa.2026.101063
           </a>
 
         </div>
